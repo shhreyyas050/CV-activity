@@ -5,7 +5,7 @@ import os
 # -----------------------------
 # Load image (CHANGE PATH)
 # -----------------------------
-img_path = "sathvik.jpg"
+img_path = "shreyas.jpg"
 img = cv2.imread(img_path)
 
 if img is None:
@@ -151,3 +151,4 @@ cv2.imshow("Rotate 270", rot270)
 cv2.waitKey(0)
 
 cv2.destroyAllWindows()
+
